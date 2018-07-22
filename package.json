@@ -1,0 +1,31 @@
+{
+  "name": "Jeff-Karr-Portfolio",
+  "version": "1.0.0",
+  "description": "Jeff is a full stack web developer located in Belton, Missouri.",
+  "main": "config.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "mailgun-js": "^0.20.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L82350v8/Jeff-Karr-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L82350v8/Jeff-Karr-Portfolio/issues"
+  },
+  "homepage": "https://github.com/L82350v8/Jeff-Karr-Portfolio#readme"
+}

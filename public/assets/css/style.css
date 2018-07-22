@@ -1,0 +1,264 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+h6, h1 {
+  color: #fff5e6;
+  letter-spacing: 2px;
+}
+
+h5 {
+  color: #fff5e6;
+  letter-spacing: 2px;
+}
+
+body {
+  color: #fff5e6;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.form, .form-control {
+  background-color: #acb168;
+  color: #fff5e6;
+}
+
+label {
+  color: #fff5e6;
+}
+
+button {
+  background-color: #acb168;
+  color: #fff5e6;
+}
+
+#intro-area {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/jk-pic-13.jpg") no-repeat center top scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 15px;
+  color: #fff5e6;
+}
+
+#hello-msg {
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+#intro-msg {
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+
+#full-stack-msg {
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+
+#li-1 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-2 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-3 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-4 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-5 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-6 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-7 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#li-8 {
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+
+#scroll-msg {
+  animation-duration: 1s;
+  animation-delay: 11s;
+  animation-iteration-count: 1;
+}
+
+#portfolio-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pond-pic-4.jpg") no-repeat top center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+#about-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/waterfall.jpg") no-repeat top center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+#contact-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/quartz creek pic15.jpg") no-repeat center center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+}
+
+#jk-about-pic {
+  width: 400px;
+  height: 475px;
+}
+
+.rounded {
+  width: 200px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 430px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-right {
+  left: 80%;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fff5e6;
+}
