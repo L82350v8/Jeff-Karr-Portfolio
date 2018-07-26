@@ -1,6 +1,6 @@
 // ======================================< variables >============================================= // 
 let clockRunning = false;
-let welcomeMsgTime = 10;
+let welcomeMsgTime = 6;
 let contactMsgTime = 5;
 
 // ======================================< functions >============================================ // 
