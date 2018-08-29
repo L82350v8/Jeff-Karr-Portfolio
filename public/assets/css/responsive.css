@@ -1,0 +1,7184 @@
+/* ###################################################### max-width 3000px ###################### */
+
+@media only screen and (max-width: 3000px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  #ipad-frame {
+    width: 85%;
+  }
+  #ipad-frame-div {
+    margin-left: 14vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.4em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 3vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-section .container {
+    max-width: 1200px;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+    font-weight: 650;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-section .container {
+    max-width: 1200px;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 0;
+    margin-left: 14vw;
+  }
+  #about-section h1 {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  #contact-form {
+    max-width: 960px;
+    margin-left: 8vw;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.25em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.25em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* =============================================== max-width 3000px and min-height 600px ===== */
+
+@media only screen and (max-width: 3000px) and (min-height: 600px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 55%;
+  }
+  #ipad-frame-div {
+    margin-left: 16vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.4em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.5em;
+  }
+  #skills-row-filler {
+    height: 8vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div h3, #tech-learning-div h3 {
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-row-filler {
+    height: 5vh;
+  }
+  #about-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.3m;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.25em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.25em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* =============================================== max-width 3000px and min-height 700px ===== */
+
+@media only screen and (max-width: 3000px) and (min-height: 700px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 55%;
+  }
+  #ipad-frame-div {
+    margin-left: 16vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 8vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div h3, #tech-learning-div h3 {
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-row-filler {
+    height: 5vh;
+  }
+  #about-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.4m;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2.1em;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.1em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* =============================================== max-width 3000px and min-height 800px ===== */
+
+@media only screen and (max-width: 3000px) and (min-height: 800px) {
+  html, body {
+    font-size: .95em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 20vh;
+  }
+  #ipad-frame {
+    width: 55%;
+  }
+  #ipad-frame-div {
+    margin-left: 16vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 10vh;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.1em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 8vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div h3, #tech-learning-div h3 {
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.25em;
+  }
+  #about-row-filler {
+    height: 5vh;
+  }
+  #about-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.4m;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2.1em;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.1em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* =============================================== max-width 3000px and min-height 900px ===== */
+
+@media only screen and (max-width: 3000px) and (min-height: 900px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 20vh;
+  }
+  #ipad-frame {
+    width: 55%;
+  }
+  #ipad-frame-div {
+    margin-left: 16vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 10vh;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 8vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div h3, #tech-learning-div h3 {
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-row-filler {
+    height: 5vh;
+  }
+  #about-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.4m;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2.1em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.1em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* =============================================== max-width 3000px and min-height 1000px ===== */
+
+@media only screen and (max-width: 3000px) and (min-height: 1000px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 20vh;
+  }
+  #ipad-frame {
+    width: 55%;
+  }
+  #ipad-frame-div {
+    margin-left: 16vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 10vh;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 3vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 8vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div h3, #tech-learning-div h3 {
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-row-filler {
+    height: 5vh;
+  }
+  #about-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.4m;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2.1em;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.1em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ###################################################### max-width 1919px ###################### */
+
+@media only screen and (max-width: 1919px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 7vw;
+    margin-right: 3vw;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.25em;
+  }
+  .carousel-inner .container {
+    max-width: 1200px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 8vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section .container {
+    max-width: 1140px;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+    font-weight: 650;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.2em;
+  }
+  #about-section .container {
+    max-width: 1100px;
+  }
+  #jk-about-pic {
+    max-width: 65%;
+    margin-bottom: 0;
+    margin-left: 9vw;
+  }
+  #about-section h1 {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #contact-form {
+    max-width: 960px;
+    margin-left: 7vw;
+  }
+  input:focus, textarea:focus {
+    font-size: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.1em;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.8em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.25em;
+  }
+  .resume-page-area h6 {
+    font-size: 1em;
+  }
+  #pdf-download-div {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ================================================ max-width 1919px and min-height 600px ===== */
+
+@media only screen and (max-width: 1919px) and (min-height: 600px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 6vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.5em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #skills-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  input:focus, textarea:focus {
+    font-size: 2.75vh;
+  }
+  #contact-section h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.1em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 1.1em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.3em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1919px and min-height 700px ===== */
+
+@media only screen and (max-width: 1919px) and (min-height: 700px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #jk-about-pic {
+    max-width: 65%;
+    margin-bottom: 0;
+    margin-left: 9vw;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  input:focus, textarea:focus {
+    font-size: 2.5vh;
+  }
+  #contact-section h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1919px and min-height 800px ===== */
+
+@media only screen and (max-width: 1919px) and (min-height: 800px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.35em;
+  }
+  #about-section h1 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  input:focus, textarea:focus {
+    font-size: 2.25vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1919px and min-height 900px ===== */
+
+@media only screen and (max-width: 1919px) and (min-height: 900px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 80%;
+  }
+  #ipad-frame-div {
+    margin-left: 10vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-section h1 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  input:focus, textarea:focus {
+    font-size: 2.25vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1919px and min-height 1000px ===== */
+
+@media only screen and (max-width: 1919px) and (min-height: 1000px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #intro-msg-area {
+    font-size: 1.5em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #skills-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ contact-section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  #contact-section h1 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+  #contact-section button {
+    margin-top: 0;
+  }
+  input:focus, textarea:focus {
+    font-size: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.15em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+}
+
+/* ###################################################### max-width 1425px ###################### */
+
+@media only screen and (max-width: 1425px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  #ipad-frame {
+    width: 90%;
+  }
+  #ipad-frame-div {
+    margin-left: 12vw;
+    margin-right: 0;
+    margin-top: 8vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 1vw;
+    margin-top: 8vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1em;
+  }
+  .carousel-inner .container {
+    max-width: 1000px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 1vh;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 10vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    padding-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-section .container {
+    max-width: 1100px;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+    font-weight: 650;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #skills-section .container {
+    max-width: 1160px;
+  }
+  #jk-about-pic {
+    max-width: 80%;
+    margin-bottom: 4%;
+    margin-left: 6vw;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  input:focus, textarea:focus {
+    font-size: 2.5vh;
+  }
+  #contact-section h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #contact-form {
+    max-width: 900px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section .container {
+    max-width: 1200px;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  #resume-section h1 {
+    font-size: 2.5em;
+    padding-top: 2vh;
+  }
+  .resume-page-area h2 {
+    font-size: 2.25em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ================================================ max-width 1425px and min-height 600px ===== */
+
+@media only screen and (max-width: 1425px) and (min-height: 600px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 4vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.25em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.35em;
+  }
+}
+
+/* ================================================ max-width 1425px and min-height 700px ===== */
+
+@media only screen and (max-width: 1425px) and (min-height: 700px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 8vh;
+  }
+  #intro-msg-area h3 {
+    font-size: 1.3em;
+  }
+  #intro-msg-area h5 {
+    font-size: 1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .85em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .95em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .85em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+}
+
+/* ================================================ max-width 1425px and min-height 800px ===== */
+
+@media only screen and (max-width: 1425px) and (min-height: 800px) {
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 4vh;
+  }
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .65em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .85em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: .9em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .85em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 1.7em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.8em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1425px and min-height 900px ===== */
+
+@media only screen and (max-width: 1425px) and (min-height: 900px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 6vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .65em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .85em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .9em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: .9em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  input:focus, textarea:focus {
+    font-size: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .85em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: .95em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1425px and min-height 1000px ===== */
+
+@media only screen and (max-width: 1425px) and (min-height: 1000px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 5vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 4vh;
+  }
+  h1#portfolio-title {
+    margin-top: 4vh;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.25em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.3em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #about-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-row-filler {
+    height: 3vh;
+  }
+  input:focus, textarea:focus {
+    font-size: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.25em;
+  }
+}
+
+/* ###################################################### max-width 1279px ###################### */
+
+@media only screen and (max-width: 1279px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 8vw;
+    margin-right: 0;
+    margin-top: 4vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 4vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.25em;
+  }
+  .carousel-inner .container {
+    max-width: 1000px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 8vw;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.15em;
+  }
+  #skills-section .container {
+    max-width: 1140px;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-section p {
+    font-size: 1.2em;
+  }
+  #about-section .container {
+    max-width: 960px;
+  }
+  #jk-about-pic {
+    max-width: 95%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  #contact-form {
+    max-width: 800px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+  }
+  #resume-section .container {
+    max-width: 1160px;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+  #resume-section h1 {
+    font-size: 2.7em;
+    padding-top: 2vh;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.25em;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ================================================ max-width 1279px and min-height 600px ===== */
+
+@media only screen and (max-width: 1279px) and (min-height: 600px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 8vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 6vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section h1 {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.25em;
+  }
+}
+
+/* ================================================ max-width 1279px and min-height 700px ===== */
+
+@media only screen and (max-width: 1279px) and (min-height: 700px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 8vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 6vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 1.6em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.9em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1279px and min-height 800px ===== */
+
+@media only screen and (max-width: 1279px) and (min-height: 800px) {
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 6vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 1.6em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.9em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.2em;
+    font-weight: 550;
+  }
+  .resume-page-area h6 {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+/* ================================================ max-width 1279px and min-height 900px ===== */
+
+@media only screen and (max-width: 1279px) and (min-height: 900px) {
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 8vh;
+  }
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 8vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 6vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1279px and min-height 1000px ===== */
+
+@media only screen and (max-width: 1279px) and (min-height: 1000px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 5vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 10vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 2vh;
+    text-align: center;
+    padding-right: 6vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-section h1 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+  #about-row-filler {
+    height: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.4em;
+  }
+  #contact-section h1 {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  #contact-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+}
+
+/* ###################################################### max-width 1199px ###################### */
+
+@media only screen and (max-width: 1199px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  #ipad-frame {
+    width: 80%;
+  }
+  #ipad-frame-div {
+    margin-left: 8vw;
+    margin-right: 0;
+    margin-top: 4vh;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 4vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.25em;
+  }
+  .carousel-inner .container {
+    max-width: 960px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 8vw;
+    font-size: 2.25em;
+  }
+  #project-description {
+    padding-left: 3vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section .container {
+    max-width: 960px;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.25em;
+  }
+  #about-section .container {
+    max-width: 960px;
+  }
+  #jk-about-pic {
+    max-width: 95%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  #contact-form {
+    max-width: 800px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .8em;
+  }
+  .resume-page-area {
+    font-size: 1.7em;
+  }
+  #resume-section h1 {
+    font-size: 2.7em;
+    padding-top: 2vh;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-page-area h6 {
+    font-size: 1.25em;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 600px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 600px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 700px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 700px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 6vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 10vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .7em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 800px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 800px) {
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 6vh;
+  }
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .85em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 10vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 900px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 900px) {
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 6vh;
+  }
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 10vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+    font-weight: 350;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    padding-top: 2vh;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+    font-weight: 650;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 1000px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 1000px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 70%;
+  }
+  #ipad-frame-div {
+    margin-left: 5vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 8vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 10vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #about-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+  }
+  .resume-page-area {
+    font-size: 1.25em;
+  }
+}
+
+/* ================================================ max-width 1199px and min-height 1200px ===== */
+
+@media only screen and (max-width: 1199px) and (min-height: 1200px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 15vh;
+  }
+  #ipad-frame {
+    width: 70%;
+  }
+  #ipad-frame-div {
+    margin-left: 5vw;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 8vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 10vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 5vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  #skills-section h1 {
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #about-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  #contact-section h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #contact-row-filler {
+    height: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+  }
+  .resume-page-area {
+    font-size: 1.25em;
+  }
+}
+
+/* ###################################################### max-width 1023px ###################### */
+
+@media only screen and (max-width: 1023px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  #ipad-frame {
+    width: 70%;
+  }
+  #ipad-frame-div {
+    margin-left: 2vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 5vh;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 2vw;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.15em;
+  }
+  .carousel-inner .container {
+    max-width: 900px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+    font-size: 2em;
+  }
+  #project-description {
+    padding-left: 2vw;
+    padding-right: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 0;
+  }
+  #jk-about-pic {
+    max-width: 100%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-pic-div {
+    text-align: center;
+  }
+  #about-section {
+    font-size: 1.2em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.3em;
+  }
+  #contact-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #contact-form {
+    max-width: 700px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+  }
+  #resume-section .container {
+    max-width: 95%;
+  }
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+  #resume-section h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-work-area h6 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .8em;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 600px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 600px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 90%;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 90%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 700px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 700px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  #ipad-frame {
+    width: 75%;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 100%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.4em;
+  }
+  #resume-section h1 {
+    font-size: 1.7em;
+    padding-top: 2vh;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 800px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 800px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  #ipad-frame {
+    width: 75%;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 100%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: 1.4em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 900px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 900px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 85%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  #intro-msg-area h3 {
+    font-size: 1.45em;
+  }
+  #intro-msg-area h5 {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 100%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: 1.5em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.25em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 1000px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 1000px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 8vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .img-div {
+    text-align: center;
+    padding-left: 4vw;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 6vh;
+  }
+  #jk-about-pic {
+    max-width: 100%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: 1.5em;
+  }
+  #about-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.4em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #contact-row-filler {
+    height: 4vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.35em;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 1200px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 1200px) {
+  html, body {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: .9em;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  img.portfolio-img {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .carousel-item {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 1vw;
+    text-align: left;
+  }
+  #project-description p {
+    margin-top: 1vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #portfolio-section ul {
+    margin-top: 1vh;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
+
+/* ================================================ max-width 1023px and min-height 1300px ===== */
+
+@media only screen and (max-width: 1023px) and (min-height: 1300px) {
+  html, body {
+    font-size: 1.55em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1em;
+  }
+  #portfolio-row-filler {
+    height: 5vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 8vw;
+  }
+  img.portfolio-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: 9vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .carousel-item {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  #project-description p {
+    margin-top: 1vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #portfolio-section ul {
+    margin-top: 1vh;
+  }
+  #project-description {
+    padding-left: 4vw;
+    padding-right: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: .8em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.2em;
+  }
+  #resume-section h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+}
+
+/* ###################################################### max-width 991px ###################### */
+
+@media only screen and (max-width: 991px) {
+  html, body {
+    font-size: .8em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 10vh;
+  }
+  #ipad-frame {
+    width: 80%;
+  }
+  #ipad-frame-div {
+    margin-left: 2vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 5vh;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 1vw;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner .container {
+    max-width: 700px;
+  }
+  .carousel-item h3 {
+    margin-top: 5vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 4vw;
+    padding-top: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 8vw;
+  }
+  #project-description {
+    padding-left: 1vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 0;
+  }
+  #jk-about-pic {
+    max-width: 25%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-pic-div {
+    text-align: center;
+  }
+  #about-section {
+    font-size: 1.65em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.5em;
+  }
+  #contact-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #contact-form {
+    max-width: 700px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.65em;
+  }
+  #resume-section .container {
+    max-width: 95%;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-work-area h6 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .8em;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 600px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 600px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 90%;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.5em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  #contact-form {
+    max-width: 700px;
+    margin-left: 6vw;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 700px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 700px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 90%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.7em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+  #resume-section h1 {
+    font-size: 1.7em;
+    padding-top: 2vh;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 800px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 800px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.6em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.45em;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+  #resume-section h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 900px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 900px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  #intro-msg-area h3 {
+    font-size: 1.85em;
+  }
+  #intro-msg-area h5 {
+    font-size: 1.65em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.8em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 1000px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 1000px) {
+  html, body {
+    font-size: .8em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 100%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 5vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.8em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 6vw;
+    padding-top: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: 1em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+}
+
+/* ================================================ max-width 991px and min-height 1200px ===== */
+
+@media only screen and (max-width: 991px) and (min-height: 1200px) {
+  html, body {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-row-filler {
+    height: 10vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.5em;
+  }
+  .carousel-item h3 {
+    margin-top: 6vh;
+    margin-left: 0;
+    text-align: left;
+  }
+  img.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 90%;
+  }
+  .img-div p {
+    margin-right: 1.5vw;
+  }
+  .github-repo-title {
+    margin-right: 3vw;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 6vw;
+    padding-top: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
+
+/* ###################################################### max-width 767px ###################### */
+
+@media only screen and (max-width: 767px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-row-filler {
+    height: 0;
+  }
+  #ipad-frame {
+    width: 25%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  #project-description p {
+    margin-left: 8vw;
+    margin-top: 2vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  h6.github-link a {
+    text-align: center;
+  }
+  .github-repo-title .github-link a {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .carousel-inner .container {
+    max-width: 500px;
+  }
+  .carousel-item {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .carousel-item h3 {
+    margin-top: 2vh;
+    margin-left: 0;
+    text-align: center;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 0;
+  }
+  #jk-about-pic {
+    max-width: 45%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-pic-div {
+    text-align: center;
+  }
+  #about-section {
+    font-size: 1em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.5em;
+  }
+  #contact-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #contact-form {
+    max-width: 700px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+  }
+  #resume-section .container {
+    max-width: 95%;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-work-area h6 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .8em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 500px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 500px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 25%;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  img.portfolio-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 17vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .8em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.4em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 600px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 600px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 25%;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 8vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .8em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 700px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 700px) {
+  html, body {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  img.portfolio-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 17vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .85em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .8em;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+  #resume-section h1 {
+    font-size: 1.8em;
+    padding-top: 2vh;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 800px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 800px) {
+  html, body {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .9em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .8em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+  #resume-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 900px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 900px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .8em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ resume section */
+  .resume-page-area {
+    font-size: 1.4em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 1000px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 1000px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 40%;
+  }
+  #ipad-frame-div {
+    margin-left: 3vw;
+    margin-right: 0;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 12vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .carousel-item {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  #portfolio-section p, #portfolio-section ul {
+    margin-top: 1vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #jk-about-pic {
+    max-width: 30%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
+  #about-section {
+    font-size: .9em;
+  }
+  #about-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 1200px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 1200px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  img.portfolio-img {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .carousel-item {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  #project-description p {
+    margin-top: 1vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #portfolio-section ul {
+    margin-top: 1vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.4em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
+
+/* ================================================ max-width 767px and min-height 1300px ===== */
+
+@media only screen and (max-width: 767px) and (min-height: 1300px) {
+  html, body {
+    font-size: .9em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1.3em;
+  }
+  #portfolio-row-filler {
+    height: 5vh;
+  }
+  img.portfolio-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: 9vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .carousel-item {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  #project-description p {
+    margin-top: 1vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #portfolio-section ul {
+    margin-top: 1vh;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  #skills-section h1 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 2vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  #about-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+  #resume-section h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .9em;
+  }
+}
+
+/* ####################################################### max-width 719px ###################### */
+
+@media only screen and (max-width: 719px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 20%;
+  }
+  #ipad-frame-div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1.4em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  #project-description p {
+    margin-left: 8vw;
+    margin-top: 2vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div p {
+    font-size: 1em;
+    text-align: center;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  h6.github-link a {
+    text-align: center;
+  }
+  .github-repo-title .github-link a {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  img.portfolio-img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 6vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .carousel-item {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .carousel-item h3 {
+    margin-top: 2vh;
+    margin-left: 0;
+    text-align: center;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 6vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 0;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  #about-pic-div {
+    text-align: center;
+  }
+  #about-section {
+    font-size: 1em;
+  }
+  #about-section h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.1em;
+  }
+  #contact-form {
+    max-width: 500px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .55em;
+  }
+  #resume-section .container {
+    max-width: 95%;
+  }
+  #resume-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: 1.2em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-work-area h6 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1.25em;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 500px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 500px) {
+  html, body {
+    font-size: .8em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 1vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  h6.github-link a {
+    text-align: center;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 2.3em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 2em;
+  }
+  .resume-page-area {
+    font-size: 1.1em;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 600px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 600px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 9vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .75em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 40%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #contact-section {
+    font-size: 1.15em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.1em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 700px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 700px) {
+  html, body {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
+  #ipad-frame {
+    width: 25%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 13vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .75em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 3vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .85em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 800px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 800px) {
+  html, body {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
+  #ipad-frame {
+    width: 30%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 13vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .75em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.15em;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 3vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+  }
+  .resume-page-area {
+    font-size: 1.15em;
+  }
+  #resume-section h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 900px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 900px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
+  #ipad-frame {
+    width: 25%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 13vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .75em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1em;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 3vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+  }
+  #resume-section h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ===================================================== max-width 719px and min-height 1000px ===== */
+
+@media only screen and (max-width: 719px) and (min-height: 1000px) {
+  html, body {
+    font-size: .8em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
+  #ipad-frame {
+    width: 40%;
+  }
+  #ipad-frame-div {
+    margin-left: 4vw;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  /* ------------------------------ portfolio-section */
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 13vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: .75em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.1em;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-top: 3vh;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: .9em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: .9em;
+  }
+}
+
+/* ####################################################### max-width 600px ###################### */
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    font-size: 1em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 30%;
+  }
+  #ipad-frame-div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 3vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1.65em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  #project-description p {
+    margin-left: 8vw;
+    margin-top: 2vh;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .img-div {
+    text-align: center;
+  }
+  .img-div a {
+    width: 80%;
+  }
+  .img-div p {
+    font-size: 1em;
+  }
+  .github-div, .github-div p {
+    text-align: center;
+  }
+  .github-repo-title .github-link a {
+    font-size: 1em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .carousel-inner .container {
+    max-width: 380px;
+  }
+  .carousel-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .carousel-item h3 {
+    margin-top: 2vh;
+    margin-left: 0;
+    text-align: center;
+  }
+  a.carousel-control-next, a.carousel-control-prev {
+    width: 6vw;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 8vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.9em;
+  }
+  #skills-row-filler {
+    height: 0;
+  }
+  #skills-section h1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #skills-section h3 {
+    margin-top: 2vh;
+  }
+  #tech-used-div, #tech-learning-div {
+    margin-left: 0;
+  }
+  /* ------------------------------ about-section */
+  #about-row-filler {
+    height: 0;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+  #about-pic-div {
+    text-align: center;
+  }
+  #about-section {
+    font-size: 2.65em;
+  }
+  #about-section h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.75em;
+  }
+  #contact-form {
+    max-width: 500px;
+    margin-left: 0;
+  }
+  /* ------------------------------ resume section */
+  #resume-section .container {
+    max-width: 95%;
+  }
+  #resume-section h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: 1em;
+  }
+  .resume-page-area h2 {
+    font-size: 2em;
+  }
+  .resume-page-area h3 {
+    font-size: 1.5em;
+  }
+  .resume-work-area h6 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #pdf-download-div {
+    text-align: center;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 500px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 500px) {
+  html, body {
+    font-size: .75em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 1vw;
+    margin-top: 1vh;
+  }
+  /* ------------------------------ portfolio-section */
+  .github-link a {
+    font-size: 1.25em;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 2.3em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.8em;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 600px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 600px) {
+  html, body {
+    font-size: .85em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  #ipad-frame {
+    width: 30%;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1.4em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .github-repo-title, .github-link a {
+    font-size: 1.15em;
+  }
+  img.portfolio-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 8vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.15em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.3em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #jk-about-pic {
+    max-width: 45%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.4em;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.25em;
+  }
+  .resume-page-area {
+    font-size: 1.3em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 700px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 700px) {
+  html, body {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: .9em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .github-repo-title, .github-link a {
+    font-size: 1.15em;
+  }
+  img.portfolio-img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 6vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  #project-frameworks, #project-frameworks h5 {
+    font-size: 1em;
+    margin-left: 8vw;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .8em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.5em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+  #resume-section h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .65em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.65em;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .5em;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 800px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 800px) {
+  html, body {
+    font-size: 1.25em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: .9em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .github-repo-title, .github-link a {
+    font-size: 1.15em;
+  }
+  img.portfolio-img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 6vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .85em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.65em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+  #resume-section h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .55em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.65em;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .5em;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 900px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 900px) {
+  html, body {
+    font-size: 1.4em;
+  }
+  /* ------------------------------ intro-section */
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  #intro-msg-area h3 {
+    font-size: 1.4em;
+  }
+  #intro-msg-area h5 {
+    font-size: 1em;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: .9em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .github-repo-title, .github-link a {
+    font-size: 1.15em;
+  }
+  img.portfolio-img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 6vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: .65em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: .8em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+  #resume-section h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .7em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.65em;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .7em;
+  }
+}
+
+/* ===================================================== max-width 600px and min-height 1000px ===== */
+
+@media only screen and (max-width: 600px) and (min-height: 1000px) {
+  html, body {
+    font-size: 1.15em;
+  }
+  /* ------------------------------ intro-section */
+  #ipad-frame {
+    width: 50%;
+  }
+  #ipad-frame-div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  #intro-msg-area {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  /* ------------------------------ portfolio-section */
+  #portfolio-section {
+    font-size: 1.5em;
+  }
+  #portfolio-row-filler {
+    height: 0;
+  }
+  h1#portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .github-repo-title, .github-link a {
+    font-size: 1.15em;
+  }
+  img.portfolio-img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 6vw;
+    margin-right: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  /* ------------------------------ skills-section */
+  #skills-section {
+    font-size: 1.2em;
+  }
+  /* ------------------------------ about-section */
+  #about-section {
+    font-size: 1.1em;
+  }
+  #jk-about-pic {
+    max-width: 35%;
+    margin-bottom: 3vh;
+    margin-left: 0;
+  }
+  /* ------------------------------ contact section */
+  #contact-section {
+    font-size: 1.2em;
+  }
+  #contact-section h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  /* ------------------------------ resume section */
+  #resume-section {
+    font-size: 1.75em;
+  }
+  #resume-section .container {
+    max-width: 100%;
+  }
+  #resume-section h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .resume-page-area {
+    font-size: .8em;
+  }
+  .resume-page-area h2 {
+    font-size: 1.65em;
+  }
+  #pdf-download-div p {
+    text-align: center;
+    font-size: .7em;
+  }
+}

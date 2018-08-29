@@ -1,21 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+}
+
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow-x: auto;
+  font-size: 1.25vw;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #fff5e6;
+  text-align: right;
+  font-size: 4vh;
+}
+
+.navbar-nav h6 {
+  font-size: 3vh;
+}
+
+#menu {
+  color: #fff5e6;
+  margin-left: 10px;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
 
-h6, h1 {
-  color: #fff5e6;
-  letter-spacing: 2px;
-}
-
-h5 {
+h6, h5, h1 {
   color: #fff5e6;
   letter-spacing: 2px;
 }
@@ -27,8 +46,8 @@ body {
 }
 
 .form, .form-control {
-  background-color: #828745;
-  color: #fff5e6;
+  background-color: #fff5e6;
+  color: #000000;
 }
 
 label {
@@ -36,12 +55,16 @@ label {
 }
 
 button {
-  background-color: #72763d;
+  background-color: #828745;
   color: #fff5e6;
 }
 
-#intro-area {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/jk-pic-13.jpg") no-repeat center top scroll;
+#github-link {
+  width: 150px;
+}
+
+#intro-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wood-grain-desktop.jpg") no-repeat center top scroll;
   opacity: 1.00;
   background-size: cover;
   -webkit-background-size: cover;
@@ -49,6 +72,15 @@ button {
   -o-background-size: cover;
   padding-top: 15px;
   color: #fff5e6;
+  height: 100vh;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.intro-content {
+  height: 100vh;
 }
 
 #hello-msg {
@@ -59,12 +91,6 @@ button {
 
 #intro-msg {
   animation-duration: 2s;
-  animation-delay: 1s;
-  animation-iteration-count: 1;
-}
-
-#full-stack-msg {
-  animation-duration: 1s;
   animation-delay: 2s;
   animation-iteration-count: 1;
 }
@@ -117,14 +143,47 @@ button {
   animation-iteration-count: 1;
 }
 
-#scroll-msg {
-  animation-duration: 1s;
-  animation-delay: 8s;
-  animation-iteration-count: 1;
+#ipad-frame {
+  width: 100%;
 }
 
 #portfolio-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/pond-pic-4.jpg") no-repeat top center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pond-pic-4.jpg") no-repeat top center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  display: block;
+  overflow-x: auto;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+}
+
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-next {
+  width: 5%;
+}
+
+.github-link a {
+  color: #fff5e6;
+  font-weight: 500;
+}
+
+.table-borderless>thead>tr>th .table-borderless>thead>tr>td .table-borderless>tbody>tr>th .table-borderless>tbody>tr>td .table-borderless>tfoot>tr>th .table-borderless>tfoot>tr>td {
+  border: none;
+}
+
+#skills-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tools-pic.jpeg") no-repeat top center scroll;
   opacity: 1.00;
   background-size: cover;
   -webkit-background-size: cover;
@@ -135,6 +194,10 @@ button {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
+}
+
+.table-responsive {
+  overflow-x: hidden;
 }
 
 #about-section {
@@ -146,13 +209,13 @@ button {
   -o-background-size: cover;
   height: 100vh;
   display: block;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   perspective: 2px;
 }
 
 #contact-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/quartz creek pic15.jpg") no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/quartz creek pic15.jpg") no-repeat center center scroll;
   opacity: 1.00;
   background-size: cover;
   -webkit-background-size: cover;
@@ -160,19 +223,131 @@ button {
   -o-background-size: cover;
   height: 100vh;
   display: block;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   perspective: 2px;
 }
 
+input:focus, textarea:focus {
+  font-size: 2vh;
+}
+
+#resume-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/wooden-fence-pic.jpg") no-repeat center center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: block;
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 100vh;
+  perspective: 2px;
+}
+
+.resume-page-area {
+  background: url("../images/blonde-wood-pic.jpg") no-repeat center center scroll;
+  opacity: 1.00;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border: 2px solid;
+  padding: 1.5em;
+  box-shadow: 10px 10px 10px black;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  color: black;
+  font-weight: 450;
+}
+
+.resume-page-area h6 {
+  color: black;
+  font-weight: 500;
+}
+
+.resume-page-area ul {
+  color: black;
+  list-style-type: square;
+  font-weight: 500;
+}
+
+.fa-file-download {
+  height: 130px;
+  color: #fff5e6;
+}
+
+.modal {
+  width: 150vw;
+  height: 100vh;
+}
+
+#resume-pdf-modal {
+  width: 95vw;
+  height: 100%;
+}
+
+.resume-modal-close-btn {
+  background-color: black;
+  color: white;
+}
+
+.resume-left-side {
+  width: 100%;
+  height: auto;
+}
+
+.resume-right-side {
+  width: 100%;
+  height: auto;
+}
+
+.resume-summary-area {
+  width: 100%;
+  height: auto;
+}
+
+.resume-skills-area {
+  width: 100%;
+  height: auto;
+}
+
+.resume-work-area {
+  width: 100%;
+  height: auto;
+}
+
+.resume-education-area {
+  width: 100%;
+  height: auto;
+}
+
+#printer-icon, #pdf-icon {
+  width: 64px;
+  height: 64px;
+}
+
+iframe {
+  width: 95vw;
+  height: 95vh;
+}
+
+iframe:focus {
+  outline: none;
+}
+
 img {
-  width: 450px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 #jk-about-pic {
-  width: 400px;
-  height: 475px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 10px 3px black;
 }
 
 .rounded {
@@ -181,7 +356,9 @@ img {
 }
 
 .overlay {
+  /*  position: absolute; */
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -202,16 +379,17 @@ img {
 
 .content {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 430px;
   margin: auto;
   overflow: hidden;
+  height: auto;
 }
 
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
-  height: 99%;
+  height: auto;
   width: 100%;
   left: 0;
   top: 0;
@@ -232,7 +410,8 @@ img {
 }
 
 .content-details {
-  position: absolute;
+  /*  position: absolute; */
+  position: static;
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
@@ -258,8 +437,18 @@ img {
   left: 80%;
 }
 
-/* mouse over link */
+.badge-pill {
+  background-color: #fff5e6;
+  color: black;
+  line-height: 20px;
+}
 
-a:hover {
-  color: #fff5e6;
+ul {
+  list-style-type: none;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/L82350v8/Jeff-Karr-Portfolio.git"
+    "url": "git+https://github.com/jeffkarr/Jeff-Karr-Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/L82350v8/Jeff-Karr-Portfolio/issues"
+    "url": "https://github.com/jeffkarr/Jeff-Karr-Portfolio/issues"
   },
-  "homepage": "https://github.com/L82350v8/Jeff-Karr-Portfolio#readme"
+  "homepage": "https://github.com/jeffkarr/Jeff-Karr-Portfolio#readme"
 }

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeff Karr</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css">
+</head>
+
+<body>
+  <div class="main container-fluid px-0">
+    <section>
+      <div class="container-fluid pt-2 pb-5" id="intro-section">
+        <nav class="navbar navbar-expand-xl navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#intro-navbar" aria-controls="intro-navbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span id="menu">Menu</span>
+          </button>
+          <div class="collapse navbar-collapse" id="intro-navbar">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/">
+                  <h6>Home</h6>
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/portfolio">
+                  <h6>Portfolio</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/skills">
+                  <h6>Skills</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/about">
+                  <h6>About</h6>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://github.com/jeffkarr" target="_blank">
+                  <h6>GitHub</h6>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://www.linkedin.com/in/jeffrey-a-karr/" target="_blank">
+                  <h6>LinkedIn</h6>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://stackoverflow.com/users/9008081/jeffkarr" target="_blank">
+                  <h6>StackOverflow</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/contact">
+                  <h6>Contact</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-3 pr-0 py-0 my-2" href="/resume">
+                  <h6>Resume</h6>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row" id="intro-row-filler"></div>
+        <div class="row">
+          <div class="col-xl-2 col-md-3 col-xs-3" id="ipad-frame-div">
+            <picture>
+              <source media="(min-width: 1199px)" srcset="../public/assets/images/jk-ipad-img-med-400.png">
+              <source media="(min-width: 319px)" srcset="../public/assets/images/jk-ipad-img-small-300.png">
+              <img class="img-responsive" id="ipad-frame" src="../public/assets/images/jk-ipad-pic1.png" alt="ipad-frame"
+                "object-fit:cover">
+            </picture>
+          </div>
+          <!-- intro message area -->
+          <div class="col-xl-8 col-md-8 col-xs-8" id="intro-msg-area">
+            <div class="job-title-area"></div>
+            <div id="welcome-msg">
+              <h3 class="animated fadeIn" id="hello-msg">Hello... and Welcome!</h3>
+              <h3 class="animated fadeIn" id="intro-msg">My name is Jeff Karr.</h3>
+            </div>
+            <div class="intro-items">
+              <ul class="mt-4">
+                <li class="animated fadeInUp" id="li-1">
+                  <h5>Building web applications that are accurate, reliable and easy-to-use are of my highest priorities.</h5>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-2">
+                  <h5>I have a lot of software engineering and some database admin experience.</h5>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-3">
+                  <h5>I'm most familiar with the MERN technology stack.</h5>
+                  <h6>(The MERN stack includes: MySQL/Mongo, Express, React, Node)</h6>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-4">
+                  <h5>I can easily become fully immersed while developing software!
+                  </h5>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-5">
+                  <h5>I have learned the hard way that work/life balance is important.</h5>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-6">
+                  <h5>I like working with teams that keep everything planned.</h5>
+                </li>
+                <li class="animated fadeInUp mt-2" id="li-7">
+                  <h5>I'm dedicated to the continuous improvement of my skills and character.</h5>
+                </li>
+                <li class="animated fadeInUp mt-2 mb-5" id="li-8">
+                  <h5>I also like to blend a little play with my work, when appropriate.</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="../public/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+
+

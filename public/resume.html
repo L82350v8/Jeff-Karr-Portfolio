@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resume</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css">
+</head>
+
+<body>
+  <section>
+    <div class="container-fluid pt-2 pb-5" id="resume-section">
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resume-navbar" aria-controls="resume-navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span id="menu">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="resume-navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/">
+                <h6>Home</h6>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/portfolio">
+                <h6>Portfolio</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/skills">
+                <h6>Skills</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/about">
+                <h6>About</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://github.com/jeffkarr" target="_blank">
+                <h6>GitHub</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://www.linkedin.com/in/jeffrey-a-karr/" target="_blank">
+                <h6>LinkedIn</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://stackoverflow.com/users/9008081/jeffkarr" target="_blank">
+                <h6>StackOverflow</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/contact">
+                <h6>Contact</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-0 py-0 my-2" href="/resume">
+                <h6>Resume</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-xl-5 col-lg-4 col-md-3"></div>
+        <div class="col-xl-3 col-lg-4 col-md-5">
+          <h1> My Resume </h1>
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2" id="pdf-download-div">
+          <a href="../public/assets/images/Jeff_Karr_Resume.pdf" download>
+            <picture>
+              <source media="(min-width: 1280px)" srcset="../public/assets/images/download-pdf-icon-small-32-sharp.png">
+              <source media="(min-width: 500px)" srcset="../public/assets/images/download-pdf-icon-med-64.png">
+              <source media="(min-width: 320px)" srcset="../public/assets/images/download-pdf-icon-small-32-sharp.png">
+              <img class="img-responsive pdf-icon" src="../public/assets/images/download-pdf-icon-med-64.png" alt="pdf-download-icon" style="width:100%">
+            </picture>
+          </a>
+          <p>
+            <small>Download</small>
+          </p>
+        </div>
+        <div class="col-xl-4 col-lg-3"></div>
+      </div>
+      <div class="container px-3">
+        <div class="row" id="row-filler"></div>
+        <!-- resume page area -->
+        <div class="container resume-page-area pb-5">
+          <div>
+            <h2 class="text-center py-1">Jeffrey A. Karr</h2>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 resume-left-side">
+              <!-- resume summary area -->
+              <div class="resume-summary-area">
+                <h3 class="text-center">SUMMARY</h3>
+                <p>A versatile, full stack web developer with previous software engineering and database administration experience.
+                </p>
+                <p>A detail-oriented, organized problem-solver with good listening skills.</p>
+                <p>Enjoys developing defect free software, collaborating with others, meeting deadlines and exceeding customer
+                  expectations.
+                </p>
+              </div>
+              <!-- resume skills area -->
+              <div class="resume-skills-area">
+                <h3 class="text-center">TECHNICAL SKILLS</h3>
+              </div>
+              <div class="row">
+                <div class="col-12 pl-4" id="resume-skills-col-1">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap 4</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>React.js</li>
+                    <li>MongoDB</li>
+                    <li>mySQL</li>
+                    <li>Git/Bash</li>
+                    <li>GitHub</li>
+                    <li>Firebase</li>
+                    <li>SQL</li>
+                    <li>RESTful APIs</li>
+                    <li>Command Line</li>
+                    <li>Visual Studio Code</li>
+                    <li>Chrome Dev Tool</li>
+                    <li>Jira</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 resume-right-side">
+              <!-- resume work experience area -->
+              <div class="resume-work-area pl-3 mb-3">
+                <h3 class="text-center">EXPERIENCE</h3>
+                <h6 class="mt-3">DATABASE AND SOFTWARE ENGINEERING EXPERIENCE</h6>
+                <ul>
+                  <li>Gathered design requirements, developed project estimates, drafted technical design documents, planned
+                    my work, met deadlines, designed new processes, created and modified many programs, thoroughly tested
+                    code changes, supported projects after deployment to production.
+                  </li>
+                  <li>Successfully completed several large system conversions and fund merger events.</li>
+                  <li>Refactored many processes to improve CPU and wall clock performance.</li>
+                  <li>Refactored several critical programs to improve SLA performance.</li>
+                  <li>Over 9 years experience with software on call technical support duties.</li>
+                  <li>Worked with project teams to design, tune, install and support database objects.</li>
+                  <li>Significant experience working with SQL, DML and DDL database languages within a large enterprise environment.</li>
+                  <li>Over 3 years experience with database on call technical support duties.</li>
+                  <li>Served as the Meetings Officer for the Heart of America DB2 Users Group.</li>
+                </ul>
+                <div class="row">
+                  <div class="col-xl-3 col-lg-3">DST Systems Inc.</div>
+                  <div class="col-xl-6 col-lg-6">Database Administrator - mainframe</div>
+                  <div class="col-xl-3 col-lg-3">2014 - 2018</div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-3 col-lg-3"></div>
+                  <div class="col-xl-6 col-lg-6">Software Engineer - mainframe</div>
+                  <div class="col-xl-3 col-lg-3">2012 - 2014</div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-3 col-lg-3"></div>
+                  <div class="col-xl-6 col-lg-6">Senior Software Developer - mainframe</div>
+                  <div class="col-xl-3 col-lg-3">2003 - 2012</div>
+                </div>
+              </div>
+              <!-- resume education area -->
+              <div class="resume-education-area">
+                <h3 class="text-center">EDUCATION</h3>
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5">
+                    University of Kansas
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    Full Stack Web Developer Certification Course
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5">
+                    University of Missouri at Kansas City
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    Bachelor of Arts in Business Administration
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="../public/assets/js/app.js"></script>
+</body>
+
+</html>

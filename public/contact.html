@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css">
+</head>
+
+<body>
+  <section>
+    <div class="container-fluid pt-2 pb-5" id="contact-section">
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contact-navbar" aria-controls="contact-navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span id="menu">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="contact-navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/">
+                <h6>Home</h6>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/portfolio">
+                <h6>Portfolio</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/skills">
+                <h6>Skills</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://github.com/jeffkarr" target="_blank">
+                <h6>GitHub</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://www.linkedin.com/in/jeffrey-a-karr/" target="_blank">
+                <h6>LinkedIn</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://stackoverflow.com/users/9008081/jeffkarr" target="_blank">
+                <h6>StackOverflow</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/about">
+                <h6>About</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/contact">
+                <h6>Contact</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-0 py-0 my-2" href="/resume">
+                <h6>Resume</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="text-center"> Contact Me </h1>
+      <div class="row" id="contact-row-filler"></div>
+      <div class="row text-center" id="msg-confirm-area"></div>
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-1 col-sm-1"></div>
+        <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10">
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="row">
+                <div class="col-lg-7">
+                  <label for="name-input">Your Name</label>
+                  <input class="form-control" id="name-input" name="name" type="text">
+                </div>
+                <div class="col-lg-5">
+                  <label for="company-input">Your Company</label>
+                  <input class="form-control" id="company-input" name="company" type="text">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <label for="email-input">Your Email Address</label>
+                    <input type="email" class="form-control" id="email-input" name="email">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="phone-input">Your Phone</label>
+                    <input type="text" class="form-control" id="phone-input" name="phone">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject-input">Subject</label>
+                <input class="form-control" id="subject-input" name="subject" type="text">
+              </div>
+              <div class="form-group">
+                <label for="message-input">Your Message</label>
+                <textarea class="form-control" id="message-input" onfocus="setBgColor()" name="message" rows="5" type="text"></textarea>
+              </div>
+          </form>
+          <div class="row text-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12">
+              <button type="submit" class="btn btn-lg" id="contact-btn">Send Email</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="../public/assets/js/app.js"></script>
+</body>
+
+</html>

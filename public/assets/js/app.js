@@ -4,12 +4,32 @@ let welcomeMsgTime = 6;
 let contactMsgTime = 5;
 
 // ======================================< functions >============================================ // 
+
+function buildJobTitle() {
+  let jobTitleDiv = $("<div>");
+  jobTitleDiv.addClass("job-title");
+  $(jobTitleDiv).css("display", "none");
+
+  let nameElement = $("<h3>");
+  nameElement.addClass = $("animated fadeIn");
+  nameElement.text("Jeff Karr");
+  nameElement.appendTo(jobTitleDiv);
+
+  let fullStackEl = $("<h3>");
+  fullStackEl.addClass = $("animated fadeIn mt-2");
+  fullStackEl.text("Full Stack Web Developer");
+  fullStackEl.appendTo(jobTitleDiv);
+
+  $(jobTitleDiv).prependTo("#intro-msg-area");
+};
+
 function welcomeMsgTimer() {
   welcomeMsgTime--;
   if (welcomeMsgTime === 0) {
     clearInterval(intervalId);
     clockRunning = false;
-    $(".welcome-msg").fadeOut("slow", function () {
+    $("#welcome-msg").fadeOut("slow", function () {
+      buildJobTitle();
       $(".job-title").fadeIn(1000);
     });
     return;
@@ -35,7 +55,6 @@ function contactMsgTimer(time) {
 };
 
 function bldContactMsgCfm() {
-  console.log("inside bldContactMsgCfm");
   var cfmDiv = $("<div>");
   cfmDiv.addClass("container");
   cfmDiv.addClass("cfm-div");
@@ -43,8 +62,9 @@ function bldContactMsgCfm() {
   cfmDiv.append(pMsg);
   $("#msg-confirm-area").append(cfmDiv);
   contactMsgTimer();
-}
+};
 
+// setBgColor sets the background color on the message-input on the contact form. 
 function setBgColor() {
   $("#message-input").css("background-color", "#faffbd");
   $("#message-input").css("color", "#000000");
@@ -53,14 +73,12 @@ function setBgColor() {
 // ======================================< main process >============================================ // 
 $(function () {
 
-  new fullpage("#fullpage", {
-    autoScrolling: true,
-    scrollHorizontally: true,
-    licensekey: "95C34945-D8F34E8C-8EE6E4A7-9B2145E7"
-  });
-  $(".job-title").hide();
+  console.log("innerWidth: " + window.innerWidth);
+  console.log("innerHeight: " + window.innerHeight);
+
   welcomeMsgTimer();
 
+  // the following code sends contact info to Mailgun api.
   $("#contact-btn").on("click", function (event) {
     event.preventDefault();
     // save message from the contact form
@@ -74,7 +92,7 @@ $(function () {
     };
     // clear form fields
     $("#contact-form")[0].reset();
-    $("#message-input").css("background-color", "#acb168");
+    $("#message-input").css("background-color", "#fff5e6");
     // send the message 
     $.post("/send", messageObj)
       .then(res => {
@@ -85,5 +103,11 @@ $(function () {
         }
       });
   });
+
+  // the following code closes the responsive navbar menu after an anchor is clicked.
+  $(document).on('click', '.navbar-collapse.show', function (e) {
+    $(this).collapse("hide");
+  });
+ 
 });
 

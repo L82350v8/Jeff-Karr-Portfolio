@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css">
+</head>
+
+<body>
+  <section>
+    <div class="container-fluid pt-2 pb-5 px-0" id="portfolio-section">
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-navbar" aria-controls="portfolio-navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span id="menu">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="portfolio-navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/">
+                <h6>Home</h6>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/portfolio">
+                <h6>Portfolio</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/skills">
+                <h6>Skills</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/about">
+                <h6>About</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://github.com/jeffkarr" target="_blank">
+                <h6>GitHub</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://www.linkedin.com/in/jeffrey-a-karr/" target="_blank">
+                <h6>LinkedIn</h6>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="https://stackoverflow.com/users/9008081/jeffkarr" target="_blank">
+                <h6>StackOverflow</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-0 my-2 border-right border-info" href="/contact">
+                <h6>Contact</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-0 py-0 my-2" href="/resume">
+                <h6>Resume</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div id="portfolio-row-filler"></div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <h1 class="pl-3" id="portfolio-title"> My Portfolio </h1>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"></div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+          <div class="carousel-inner">
+            <!-- Pet Purfect project -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-4">
+                    <h3>Pet Purfect</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="../public/assets/images/Pet Purfect Demo.mp4">
+                      <picture>
+                        <source media="(min-width: 720px)" srcset="../public/assets/images/pet-purfect-img-med-400.jpg" class="portfolio-img">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/pet-purfect-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/pet-purfect-img-small-255.jpg" alt="pet-purfect-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div class="github-div">
+                      <p>(click image to view demo!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <div class="col-xl-12 col-lg-12 col-md-12">
+                        <h6 class="github-link">
+                          <a class="mt-0" href="https://github.com/jeffkarr/pet-care-project">jeffkarr/pet-care-project
+                          </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This full stack web application was designed and built by a team of 4 web developers. The app uses
+                        a React.js front-end and a mySQL database on the back-end. Sequelize.js is used as the object relational
+                        mapper to the database. Firebase Storage is used to hold uploaded images. The server uses Node.js,
+                        Express.js and Axios.js libraries. This app uses a model-view-controller (MVC) folder structure.
+                        And, Passport.js is used for the user authentication.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript (ES6)</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Express.js</li>
+                            <li>MongoDB database</li>
+                            <li>Mongoose.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Axios.js</li>
+                            <li>Bootstrap 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- NYT React project -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>NYT Article Search</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://nytreact-1.herokuapp.com/">
+                      <picture>
+                        <source media="(min-width: 720px)" srcset="../public/assets/images/nytreact-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/nytreact-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/nytreact-pic-2.JPG" alt="nytreact-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div class="github-div">
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/nytreact">
+                          </i>jeffkarr/nytreact
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This full stack web application was built using React.js to render the web page and a Mongo database
+                        to store the saved data. Node.js code executes on the web server. Express.js and Axios.js are used
+                        to handle the routes and the call to the NYT website. And, Mongoose.js is used as the Object Relational
+                        Mapper (ORM) to the database.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript (ES6)</li>
+                            <li>React.js</li>
+                            <li>JSX</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB database</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Mongoose.js</li>
+                            <li>Axios.js</li>
+                            <li>Bootstrap 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Eat Da Burger -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>Eat Da Burger</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://sequelized-burger1.herokuapp.com/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/sequelized-burger-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/sequelized-burger-img-small-300.jpg">
+                        <img class="portfolio-img" src="sequelizeBurgers-pic.jpg" alt="eat-da-burgers-pic" style="width:100%" "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/sequelizedBurger">
+                          </i>jeffkarr/sequelizedBurger
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This full stack web application uses a "Model/View/Controller" folder structure and a mySQL database.
+                        The application uses Node.js to communicate with the server and uses Express.js to support the http
+                        requests. Sequelize.js is used as the "Object Relational Mapper" that interfaces with the database.
+                        And, Handlebars.js is used to render client-side templates on the HTML page.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript</li>
+                            <li>jQuery</li>
+                            <li>AJAX</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>MVC Folder Structure</li>
+                            <li>MySQL database</li>
+                            <li>Sequelize.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Handlebars.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Train Time -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>Train Time</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://jeffkarr.github.io/Train-Scheduler-app/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/train-scheduler-app-img-med-400.png">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/train-scheduler-app-img-small-300.png">
+                        <img class="portfolio-img" src="../public/assets/images/Train-Scheduler-App.PNG" alt="train-scheduler-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/Train-Scheduler-app">
+                          </i>jeffkarr/Train-Scheduler-app
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This front end web application uses Moment.js to perform calculations involving time that are related
+                        to scheduling train trips. The trip data is stored in a Firebase database. jQuery code is used to
+                        collect the new train data and to present the trip information on the web page. An animated GIF is
+                        used as a background image. Bootstrap 4 was used to design the look of the website.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript</li>
+                            <li>Moment.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>jQuery</li>
+                            <li>Firebase database</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>GIF background</li>
+                            <li>Bootstrap 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Click-the-Truck -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-4">
+                    <h3>Click-the-Truck</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://jeffkarr.github.io/click-the-truck-game/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/click-the-truck-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/click-the-truck-img-small-300.jpg">
+                        <img class="portfolio-img" src="Click-the-truck-game-screenshot.JPG " alt="click-the-truck-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/click-the-truck-game">
+                          </i>jeffkarr/click-the-truck-game
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This memory game was built using React, Javascript and JSX. In this project, I worked with React's
+                        Component architecture, managing state, using props, using Javascript ES6 syntax, using JSX syntax
+                        and executing the React deployment process. I used the Bootstrap 4 framework to style the site.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript (ES6)</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>React.js</li>
+                            <li>JSX</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Bootstrap 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bloomberg News Scraper -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>News Scraper</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://news-scraper-app-1.herokuapp.com/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/news-scraper-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/news-scraper-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/mongo-news-scraper-pic.JPG" alt="news-scraper-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/News-Scraper-App">
+                          </i>jeffkarr/News-Scraper-App
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This full stack web app uses Cheerio.js to parse the HTML code of the web site. Other Javascript
+                        libraries such as Request.js and Axios.js are used to simplify http requests. Node.js and Express.js
+                        are used to communicate with the server. Mongoose.js is used as the "Object Relational Mapper" to
+                        interface with the Mongo database.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript (ES6)</li>
+                            <li>MongoDB database</li>
+                            <li>Node.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Mongoose.js</li>
+                            <li>Cheerio.js</li>
+                            <li>Express.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Axios.js</li>
+                            <li>Request.js</li>
+                            <li>jQuery</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dilbert Trivia Game -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>Trivia Game</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://jeffkarr.github.io/TriviaGame/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/trivia-game-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/trivia-game-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/Trivia Game.jpg" alt="trivia-game-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/TriviaGame">
+                          </i>jeffkarr/TriviaGame
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This front-end web application uses Javascript and jQuery. The app extensively uses array processing
+                        to present a series of trivia questions to the player. All HTML elements except for the title and
+                        background are dynamically generated using jQuery code. The app also uses a timer method to control
+                        events that occur on the screen.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col=md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript (ES6)</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>jQuery</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>DOM setInterval Method</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bamazon CLI -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>Bamazon CLI</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="../public/assets/images/bamazon-cli-demo-small.mp4">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/bamazon-cli-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/bamazon-cli-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/demo-bamazon-cli-pic.jpg" alt="bamazon-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to view demo!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/Bamazon-CLI">
+                          </i>jeffkarr/Bamazon-CLI
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This server-side command line interface uses Node.js to execute Javascript code on the server. The
+                        app uses Inquirer.js to interact with a user thru their computer's "command line" interface. The
+                        data is stored in a mySQL database. SQL is used to query two database tables. Easy-table.js is used
+                        to present the queried data.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>Inquirer.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>MySQL database</li>
+                            <li>SQL</li>
+                            <li>Command Line</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Easy-table.js</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- LIRI CLI -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>LIRI CLI</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="../public/assets/images/LIRI-demo.mp4">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/liri-demo-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/liri-demo-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/LIRI-demo-pic.jpg" alt="liri-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to view demo!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/LIRI-node-app">
+                          </i>jeffkarr/LIRI-node-app
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This server-side command line interface uses Node.js to execute Javascript code on a server. Instructions
+                        received from a user's command prompt are used to collect data from a web site using an API. Dotenv.js
+                        is used to safely store the API key information in a confidential environment variable. The app can
+                        also process requests that are read from a text file.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Twitter API</li>
+                            <li>Spotify API</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>OMDB API</li>
+                            <li>Dotenv.js</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Hangman Game -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row mt-1 mb-1">
+                  <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                  <div class="col-xl-8 col-lg-8 col-md-8">
+                    <h3>Hangman</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 img-div">
+                    <a href="https://jeffkarr.github.io/Hangman-Game/">
+                      <picture>
+                        <source media="(min-width: 600px)" srcset="../public/assets/images/hangman-game-img-med-400.jpg">
+                        <source media="(min-width: 320px)" srcset="../public/assets/images/hangman-game-img-small-300.jpg">
+                        <img class="portfolio-img" src="../public/assets/images/Hangman-game-pic.JPG" alt="hangman-pic" style="width:100%"
+                          "object-fit:cover">
+                      </picture>
+                    </a>
+                    <div>
+                      <p>(click image to use app!)</p>
+                      <h6 class="github-repo-title mt-4 pr-2"><i class="fab fa-github fa-lg mx-2"></i>GitHub Repository:</h6>
+                      <h6 class="github-link">
+                        <a class="mt-0" href="https://github.com/jeffkarr/Hangman-Game">
+                          </i>jeffkarr/Hangman-Game
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8" id="project-description">
+                    <div class="row text-left">
+                      <p>This basic front end game was built using Javascript code. The Bootstrap 4 framework was used to
+                        design the look of the web page. HTML DOM methods are used to collect player responses and to present
+                        information on the web page.
+                      </p>
+                    </div>
+                    <div class="row text-left" id="project-frameworks">
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <h5>Technologies used in this project:</h5>
+                      </div>
+                      <div class="row col-xl-12 col-lg-12 col-md-12">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Javascript</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>HTML DOM methods</li>
+                          </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                          <ul>
+                            <li>Bootstrap 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel prev/next arrows -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <img src="../public/assets/images/left-arrow.svg" alt="prev-arrow" aria-hidden="true">
+              <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <img src="../public/assets/images/right-arrow.svg" alt="next-arrow" aria-hidden="true">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="../public/assets/js/app.js"></script>
+</body>
+
+</html>
