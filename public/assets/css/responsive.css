@@ -101,7 +101,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #about-section .container {
     max-width: 1200px;
@@ -255,7 +255,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   #about-row-filler {
     height: 5vh;
@@ -399,7 +399,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.45em;
   }
   #about-row-filler {
     height: 5vh;
@@ -543,7 +543,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   #about-row-filler {
     height: 5vh;
@@ -687,7 +687,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   #about-row-filler {
     height: 5vh;
@@ -831,7 +831,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   #about-row-filler {
     height: 5vh;
@@ -979,7 +979,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   #about-section .container {
     max-width: 1100px;
@@ -1100,7 +1100,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -1212,7 +1212,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -1322,7 +1322,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.35em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 6vh;
@@ -1436,7 +1436,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   #about-section h1 {
     margin-top: 6vh;
@@ -1547,7 +1547,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -1694,7 +1694,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   #skills-section .container {
     max-width: 1160px;
@@ -1807,7 +1807,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -1901,7 +1901,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 4vh;
@@ -1993,7 +1993,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2098,7 +2098,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .85em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2225,7 +2225,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2350,8 +2350,8 @@
     margin-left: 0;
   }
   /* ------------------------------ about-section */
-  #about-section p {
-    font-size: 1.2em;
+  #about-section {
+    font-size: 1.4em;
   }
   #about-section .container {
     max-width: 960px;
@@ -2454,7 +2454,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2539,7 +2539,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 4vh;
@@ -2645,7 +2645,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2751,7 +2751,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -2876,7 +2876,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   #about-section h1 {
     margin-top: 6vh;
@@ -3017,7 +3017,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   #about-section .container {
     max-width: 960px;
@@ -3117,7 +3117,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -3215,7 +3215,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 4vh;
@@ -3317,7 +3317,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -3419,7 +3419,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -3548,7 +3548,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -3660,7 +3660,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 5vh;
@@ -3797,7 +3797,7 @@
     text-align: center;
   }
   #about-section {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -3910,7 +3910,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -4436,7 +4436,7 @@
   }
   /* ------------------------------ about-section */
   #jk-about-pic {
-    max-width: 35%;
+    max-width: 100%;
     margin-bottom: 3vh;
     margin-left: 0;
   }
@@ -4654,7 +4654,7 @@
     text-align: center;
   }
   #about-section {
-    font-size: 1.65em;
+    font-size: 1.7em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -4765,7 +4765,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -4865,7 +4865,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -4965,7 +4965,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 2vh;
@@ -5060,7 +5060,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #about-section h1 {
     margin-top: 2vh;
@@ -5153,7 +5153,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 2vh;
@@ -5232,7 +5232,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1em;
+    font-size: 1.25em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -5457,7 +5457,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .8em;
+    font-size: 1.25em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -5514,7 +5514,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .8em;
+    font-size: 1.1em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -5581,7 +5581,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .8em;
+    font-size: 1.15em;
   }
   #about-section h1 {
     margin-top: 0;
@@ -5647,7 +5647,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .8em;
+    font-size: 1.15em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -5722,7 +5722,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .8em;
+    font-size: 1.2em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -5811,7 +5811,7 @@
     margin-left: 0;
   }
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #about-section h1 {
     margin-top: 2vh;
@@ -5882,7 +5882,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -5957,7 +5957,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -6189,7 +6189,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.45em;
   }
   /* ------------------------------ resume section */
   #resume-section {
@@ -6237,7 +6237,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #jk-about-pic {
     max-width: 40%;
@@ -6310,7 +6310,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.2em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -6391,7 +6391,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.15em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -6472,7 +6472,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.25em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -6547,7 +6547,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -6677,7 +6677,7 @@
     text-align: center;
   }
   #about-section {
-    font-size: 2.65em;
+    font-size: 2.75em;
   }
   #about-section h1 {
     margin-top: 1vh;
@@ -6748,7 +6748,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   /* ------------------------------ resume section */
   #resume-section {
@@ -6804,7 +6804,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   #jk-about-pic {
     max-width: 45%;
@@ -7053,7 +7053,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: .9em;
   }
   #jk-about-pic {
     max-width: 35%;
@@ -7145,7 +7145,7 @@
   }
   /* ------------------------------ about-section */
   #about-section {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
   #jk-about-pic {
     max-width: 35%;
